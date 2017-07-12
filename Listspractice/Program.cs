@@ -54,15 +54,73 @@ namespace Listspractice
             //{
             //        Console.WriteLine("No rain enjoy the sun");
             //}
+
+            //List<string> favefoods = new List<string>() { "Steak", "Fish", "katsudon", "Ice Cream","Nachos" };
+            //if (favefoods.Contains("fish"))
+            //{
+            //    Console.WriteLine("i like fish, too");
+            //}
+
+            //List<int> numberslist = new List<int> { 1, 23, 9, 77, 922, 6, 32, 63, 14, 5 };
+            ////Console.WriteLine(numberslist.Contains(23));
+
+            //Console.WriteLine(numberslist.Contains(77));
+
+            //Console.WriteLine(numberslist.Contains(15));
+
+            //numberslist.Remove(23);
+            //numberslist.Remove(77);
+            //numberslist.Remove(32);
+            //numberslist.Remove(6);
+
+            //Console.WriteLine(numberslist.Contains(23));
+
+            //Console.WriteLine(numberslist.Contains(77));
+
+            //Console.WriteLine(numberslist.Contains(15));
+
+            //create list
+            //not in list add it
+            //inform the movie has been added on the way
+            //if in list tell them on the way
+            //able to add has many movies as they want
+
+            List<string> movieList = new List<string>() {"All about Bob", "Alien", "Robocop" };
+            Console.WriteLine("Please, enter a movie");
+            string movieEntered = Console.ReadLine();
+
+
+            if (movieList.Contains("All about Bob"))
+                if (movieList.Contains("Alien"))
+                    if (movieList.Contains("Robocop"))
+                    {
+                        Console.WriteLine("Your Movie is on it's way");
+                    }
+
+                    else
+                    {
+                        Console.WriteLine("Your movie is being ordered");
+                    }
+
+
             
-            List<string> favefoods = new List<string>() { "Steak", "Fish", "katsudon", "Ice Cream","Nachos" };
-            if (favefoods.Contains("fish"))
-            {
-                Console.WriteLine("i like fish, too");
-            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         }
-        
+
     }
 }
